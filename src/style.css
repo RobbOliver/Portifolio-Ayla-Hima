@@ -22,6 +22,12 @@ body {
     margin: 0 auto;
 }
 
+.stars-main {
+    position: absolute;
+    transform: rotate(90deg);
+    width: 55%;
+}
+
 .description-content {
     text-align: center;
     font-family: 'Lobster';
@@ -42,8 +48,18 @@ body {
     font-style: italic;
 }
 
+.main-contet {
+    display: flex;
+}
 
+.slotOne-content, .slotTwo-content{
+    margin: 60px auto;
+}
 
+.img-box {
+    height: 500px;
+    width: 400px;
+}
 
 footer {
     width: 100%;
