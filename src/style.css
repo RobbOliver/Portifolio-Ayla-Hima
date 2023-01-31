@@ -4,28 +4,63 @@
     border: 0;
     font-size: 100%;
     font: inherit;
-    font-style: none;
+    text-decoration: none;
     vertical-align: baseline;
 }
 
 /* TAGS AREA  */
 
 body {
-    background: linear-gradient(345deg,rgb(204, 153, 128) 35%,rgb(43, 14, 70))
+    background: linear-gradient(345deg,rgb(204, 153, 128) 35%,rgb(43, 14, 70));
 }
+
+
+nav {
+    margin: 30px auto;
+}
+ 
+li {
+    list-style: none; 
+    margin: 10px;
+    display: inline;
+}
+
 
 /* CLASS AREA  */
 
+
+.anc {
+    font-size: 200px;
+}
+
+.img-menor {
+    width: 40%;
+}
+
+.header-main {
+    background-image: url(img/stars.png);
+    background-size: 33%;
+    background-position: center;
+}
+
 .logo-main {
     display: block;
-    width: 30%;
+    width: 33%;
     margin: 0 auto;
+}
+
+.slotOne-content {
+    transition: 1s;
+}
+
+.slotOne-content:hover {
+    transform: scale(1.08);
 }
 
 .stars-main {
     position: absolute;
     transform: rotate(90deg);
-    width: 55%;
+    margin: 0 auto;
 }
 
 .description-content {
@@ -52,14 +87,46 @@ body {
     display: flex;
 }
 
-.slotOne-content, .slotTwo-content{
+.slotOne-content, .slotTwo-content {    
     margin: 60px auto;
 }
 
 .img-box {
-    height: 500px;
-    width: 400px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px 5px rgba(28, 25, 29, 0.481);
+    height: 400px;
+    width: 320px;
 }
+
+.sec-content {
+    font-family: 'Lobster';
+    color: white;
+    text-align: center;
+    font-size: 60px;
+
+    margin: 20px 0px -35px 0px;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+.main-menu{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.item-menu-a {
+    font-family: 'Lobster';
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-size: 60px;   
+}
+
+.test:hover{
+    font-size: 15px;
+}
+
 
 footer {
     width: 100%;
