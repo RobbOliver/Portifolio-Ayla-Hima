@@ -14,6 +14,9 @@ body {
     background: linear-gradient(345deg,rgb(204, 153, 128) 35%,rgb(43, 14, 70));
 }
 
+header {
+    height: 100vh;
+}
 
 nav {
     margin: 30px auto;
@@ -112,7 +115,9 @@ li {
     display: inline-flex;
     flex-direction: row;
     justify-content: center;
+    gap: 80px;
     width: 100%;
+
 }
 
 .item-menu-a {
@@ -121,10 +126,12 @@ li {
     color: white;
     text-align: center;
     font-size: 60px;   
+    text-shadow: 3px 3px 10px black, -1px -1px 3px white;
+    transition: 0.5s;
 }
 
-.test:hover{
-    font-size: 15px;
+.item-menu-a:hover{
+    font-size: 66px;
 }
 
 
